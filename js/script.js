@@ -1,11 +1,10 @@
-var 
-    triangle1Area = getTriangleArea(3, 8);
-    triangle2Area = getTriangleArea(5, 5);
-    triangle3Area = getTriangleArea(8, 15);
+var triangle1Area = getTriangleArea(3, 8);
+var triangle2Area = getTriangleArea(5, 5);
+var triangle3Area = getTriangleArea(8, 15);
 
 function getTriangleArea (a,h) {
 
-    if ( (a>0) && (h>0) ) {
+    if (( a > 0 ) && ( h > 0 )) {
         return a*h/2;
     }
     else {
